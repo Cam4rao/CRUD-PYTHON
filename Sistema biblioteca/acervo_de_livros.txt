@@ -1,0 +1,100 @@
+Title: The Catcher in the Rye
+Author: J.D. Salinger
+Year: 1951
+Category: Fiction
+------------------------------
+Title: 1984
+Author: George Orwell
+Year: 1949
+Category: Dystopian
+------------------------------
+Title: To Kill a Mockingbird
+Author: Harper Lee
+Year: 1960
+Category: Fiction
+------------------------------
+Title: Pride and Prejudice
+Author: Jane Austen
+Year: 1813
+Category: Romance
+------------------------------
+Title: The Great Gatsby
+Author: F. Scott Fitzgerald
+Year: 1925
+Category: Classic
+------------------------------
+Title: Moby-Dick
+Author: Herman Melville
+Year: 1851
+Category: Adventure
+------------------------------
+Title: War and Peace
+Author: Leo Tolstoy
+Year: 1869
+Category: Historical
+------------------------------
+Title: The Odyssey
+Author: Homer
+Year: -800
+Category: Epic
+------------------------------
+Title: Ulysses
+Author: James Joyce
+Year: 1922
+Category: Modernist
+------------------------------
+Title: The Brothers Karamazov
+Author: Fyodor Dostoevsky
+Year: 1880
+Category: Philosophical
+------------------------------
+Title: Crime and Punishment
+Author: Fyodor Dostoevsky
+Year: 1866
+Category: Psychological
+------------------------------
+Title: Brave New World
+Author: Aldous Huxley
+Year: 1932
+Category: Dystopian
+------------------------------
+Title: The Hobbit
+Author: J.R.R. Tolkien
+Year: 1937
+Category: Fantasy
+------------------------------
+Title: The Picture of Dorian Gray
+Author: Oscar Wilde
+Year: 1890
+Category: Gothic
+------------------------------
+Title: Dracula
+Author: Bram Stoker
+Year: 1897
+Category: Horror
+------------------------------
+Title: The Lord of the Rings
+Author: J.R.R. Tolkien
+Year: 1954
+Category: Fantasy
+------------------------------
+Title: Les Misérables
+Author: Victor Hugo
+Year: 1862
+Category: Historical
+------------------------------
+Title: The Divine Comedy
+Author: Dante Alighieri
+Year: 1320
+Category: Epic
+------------------------------
+Title: Anna Karenina
+Author: Leo Tolstoy
+Year: 1878
+Category: Tragedy
+------------------------------
+Title: Frankenstein
+Author: Mary Shelley
+Year: 1818
+Category: Gothic
+------------------------------

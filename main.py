@@ -128,7 +128,7 @@ def listar_livros():
 def buscar_livro():
     st.header("Buscar Livro")
 
-    criterio = st.radio("Buscar por", ["Título", "Autor", "Categoria"])
+    criterio = st.radio("Buscar por", ["Titulo", "Autor", "Categoria"])
     termo = st.text_input(f"Digite o {criterio.lower()}")
 
     if termo:
@@ -179,7 +179,26 @@ def listar_emprestimos():
         st.dataframe(st.session_state.emprestimos)
 
 
+def exportar_emprestimos():
+    base1 = pd.read_csv("emprestimos.csv")
+    base2 = pd.read_csv("livros.csv")
+    base3 = pd.read_csv("usuarios.csv")
+    
+    base_merge = base1.merge(base2, on="isbn", how='left')
+    base_exportar = base_merge.merge(base3, left_on="id_usuario", right_on="id", how='left')
+
+    csv = base_exportar.to_csv(index=False).encode('utf-8')
+    
+    st.download_button(
+        label = "Exportar dados",
+        data = csv,
+        file_name="base_biblioteca.csv",
+        mime="text/csv"
+    )
+
+
 if __name__ == "__main__":
     if "livros" not in st.session_state:
         carregar_dados()
     menu_principal()
+    exportar_emprestimos()

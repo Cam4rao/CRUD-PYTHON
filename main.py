@@ -10,7 +10,7 @@ ARQ_EMPRESTIMOS = "emprestimos.csv"
 
 # Tipos imutáveis
 TIPOS_USUARIO = ("Aluno", "Professor", "Visitante")
-
+st.image("UCB logo.png")
 
 # Funções para carregar e salvar dados
 def carregar_dados():
@@ -199,6 +199,7 @@ def exportar_emprestimos():
 
 if __name__ == "__main__":
     if "livros" not in st.session_state:
+        
         carregar_dados()
     menu_principal()
     exportar_emprestimos()
